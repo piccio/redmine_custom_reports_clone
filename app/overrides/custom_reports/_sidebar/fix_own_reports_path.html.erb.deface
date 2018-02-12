@@ -1,0 +1,2 @@
+<!-- replace_contents %Q{erb[loud]:contains("render :partial => 'links', :locals => { :custom_reports => @own_custom_reports }")} -->
+render :partial => 'custom_reports/links', :locals => { :custom_reports => @own_custom_reports }

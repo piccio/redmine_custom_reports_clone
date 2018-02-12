@@ -1,0 +1,8 @@
+# English strings go here for Rails i18n
+en:
+  # my_label: "My label"
+  label_custom_report_clone: Clone Custom Reports
+  field_source_project: Source Project
+  field_custom_report_ids: Source Custom Reports
+  custom_reports_not_included_in_source_project_reports_error: are not included in the source project's custom reports
+  message_custom_reports_cloned: Custom report cloned successfully

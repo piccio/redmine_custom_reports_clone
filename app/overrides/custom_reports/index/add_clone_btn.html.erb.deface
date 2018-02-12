@@ -1,0 +1,7 @@
+<!-- insert_bottom 'div.contextual' -->
+
+<% if User.current.allowed_to?(:clone_custom_reports, @project) %>
+  <%= link_to(l(:button_duplicate),
+              new_project_custom_reports_clone_path(@project),
+              :class => 'icon icon-duplicate') %>
+<% end %>

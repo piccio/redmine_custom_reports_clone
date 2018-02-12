@@ -1,0 +1,19 @@
+<% content_for :header_tags do %>
+  <%= javascript_include_tag 'custom_reports_clone.js', plugin: 'redmine_custom_reports_clone' %>
+<% end %>
+
+<% html_title(l(:label_custom_report_clone)) -%>
+
+<h2><%= l(:label_custom_report_clone) %></h2>
+
+<%= render partial: 'form',
+           locals: {
+               custom_reports_clone: @custom_reports_clone,
+               message: l(:button_duplicate),
+               url: project_custom_reports_clones_path,
+               get_custom_reports_path: new_project_custom_reports_clone_path,
+               selected: @custom_reports_clone.source_project.blank? ? nil : @custom_reports_clone.source_project.id } %>
+
+<% content_for :sidebar do %>
+  <%= render partial: 'custom_reports/sidebar' %>
+<% end %>

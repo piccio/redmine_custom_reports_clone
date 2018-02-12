@@ -1,0 +1,4 @@
+= redmine_custom_reports_clone
+
+redmine version: 2.6.0
+custom reports plugin version: 0.1.4
