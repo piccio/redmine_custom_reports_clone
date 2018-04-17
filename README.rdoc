@@ -1,5 +1,5 @@
 = redmine_custom_reports_clone
 
-use version 0.0.1 with redmine 2.x (tested on 2.6.0 with custom reports plugin 0.1.4)
+use version 1.0.0 with redmine 2.x (tested on 2.6.0 with custom reports plugin 0.1.4)
 
-use version 0.0.2 with redmine 3.x (tested on 3.4.4 with custom reports plugin 0.1.5)
+use version 2.0.0 with redmine 3.x (tested on 3.4.4 with custom reports plugin 0.1.5)

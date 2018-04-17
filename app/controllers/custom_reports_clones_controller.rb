@@ -17,6 +17,8 @@ class CustomReportsClonesController < ApplicationController
   end
 
   def create
+    params.required(:custom_reports_clone).permit! if params.class.method_defined? :required
+    
     @custom_reports_clone = CustomReportsClone.new(params[:custom_reports_clone])
     @custom_reports_clone.target_project = @project
     @custom_reports_clone.user = User.current
