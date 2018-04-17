@@ -1,10 +1,12 @@
 function fillCustomReportsProject(data) {
   $('form#custom-reports-clone select#custom_reports_clone_custom_report_ids').empty();
-  for(var i in data) {
-    var id = data[i].custom_report.id;
-    var title = data[i].custom_report.name;
+
+  $.each(data, function( index, value ) {
+    var id = value.id;
+    var title = value.name;
+
     $('form#custom-reports-clone select#custom_reports_clone_custom_report_ids').append(new Option(title, id));
-  }
+  });
 }
 
 function getCustomReportsProject() {
