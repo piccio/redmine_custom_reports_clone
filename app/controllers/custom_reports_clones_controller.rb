@@ -1,9 +1,9 @@
 class CustomReportsClonesController < ApplicationController
   unloadable
 
-  before_filter :find_project_by_project_id
-  before_filter :authorize
-  before_filter :find_custom_reports, only: :new
+  before_action :find_project_by_project_id
+  before_action :authorize
+  before_action :find_custom_reports, only: :new
 
   def new
     @custom_reports_clone = CustomReportsClone.new

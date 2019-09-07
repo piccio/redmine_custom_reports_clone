@@ -3,3 +3,5 @@
 use version 1.0.0 with redmine 2.x (tested on 2.6.0 with custom reports plugin 0.1.4)
 
 use version 2.0.0 with redmine 3.x (tested on 3.4.4 with custom reports plugin 0.1.5)
+
+use version 3.0.0 with redmine 4.0.x (tested on 4.0.4 with a {forked custom reports}[https://github.com/piccio/redmine_custom_reports/tree/redmine-4] plugin)

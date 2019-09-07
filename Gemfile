@@ -2,6 +2,6 @@ source 'https://rubygems.org'
 
 gem 'deface'
 
-gem 'activerecord-tableless', '~> 2.0'
+gem "activerecord-tablefree", "~> 3.0"
 
-gem 'deep_cloneable', '~> 2.3.2'
+gem 'deep_cloneable', '~> 3.0.0'

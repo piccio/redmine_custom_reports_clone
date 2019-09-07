@@ -4,7 +4,7 @@ Redmine::Plugin.register :redmine_custom_reports_clone do
   description <<-eos
     it enables the cloning of 'custom reports' from a selected project in the current one
   eos
-  version '2.0.0'
+  version '3.0.0'
   url 'https://github.com/piccio/redmine_custom_reports_clone'
   author_url 'https://github.com/piccio'
 
